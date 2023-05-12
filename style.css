@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header{
+ 
+    margin: 0 auto;
+    background-color: #b5dcff;
+    padding: 5px 0;
+}
+.main-header {
+    max-width: 1300px;
+    height: 100px;
+    overflow:visible;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    position: relative;
+}
+.main-header .logoarea {
+    width: 300px;
+
+    vertical-align: middle;
+    text-align: left;
+    justify-content: center;
+
+}
+.main-header img {
+    height: 100px;
+    width: 150px;
+    
+}
+
+
+/***********      Menu area design ***********/
+
+
+
+
+.main-header .menuarea {
+    width: 100%;
+    
+}
+
+.main-header .menuarea .main-menu{
+    width: 100%;
+    display: block;
+    text-align: right;
+    list-style: none;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 0px;
+}
+.main-header .menuarea .main-menu li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 0px;
+    white-space: nowrap;
+}
+
+
+
+
+/* This is submenu area design */
+
+
+.main-header .menuarea .main-menu li:nth-child(2){
+   
+   display: inline-block;
+   position: relative;
+}
+
+.main-header .menuarea .main-menu li:nth-child(2) .submenu{
+    background-color: #b5dcff;
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: -13px;
+    display: none;
+    transition: all 0.8s;
+    
+ }
+ .main-header .menuarea .main-menu li:nth-child(2) .submenu li{
+   
+    display: block;
+    padding: 5px 10px;
+    
+ }
+
+ .main-header .menuarea .main-menu li:nth-child(2):hover .submenu{
+    display: block;
+    transition: all 0.8s;
+ }
+/***********8 Sub menu End **********/
+
+.main-header .menuarea .main-menu li a{
+    display: inline-block;
+    font-size: 17px;
+    white-space: nowrap;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: all 0.5s;
+
+}
+.main-header .menuarea li a:hover{
+    color: green;
+    font-size: 18px;
+    transition: all 0.5s;
+
+}
+.main-header .menuarea li a:active{
+    color: red;
+    font-size: 18px;
+   
+
+}
+
+/* Header Area End from here */
+
+
+
+/* main area start from here */
+
+main{
+    max-width: 1300px;
+    margin: 0px auto;
+}
+main .post1 {
+    margin-top: 100px;
+    max-width:100%;
+    overflow: hidden;
+}
+main .post1 .postarea{
+    text-transform: justify;
+    background: rgb(206, 206, 206);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+main .post1 .postarea img{
+    width: 100%;
+    padding: 10px 0;
+}
+
+
+
+/* Home page End */
+
+
+
+/* contact Page */
+
+
+form {
+    max-width: 1300px;
+    margin: 0px auto;
+    text-align: center;
+}
+form label {
+    display: block;
+    font-size: 20px;
+    padding: 20px 0;
+    width: 50%;
+    text-align: left;
+    
+}
+form input {
+    display: block;
+    font-size: 20px;
+    border: 1 px solid gray;
+    width: 50%;
+    padding: 10px 0;
+  
+}
+form textarea {
+    display: block;
+    font-size: 20px;
+    border: 1 px solid gray;
+    width: 50%;
+  
+}
+form input[type="submit"]{
+    background-color: Green;
+    width: 200px;
+    margin-top: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding:10px 20px;
+}
+
+
+/* Contact Page  end *****************/
+
+
+
+
+/********    blog page start ***********/
+h1 {
+    margin: 50px;
+}
+.first-blog-row {
+    max-width: 1300px;
+    margin: auto;
+}
+.first-blog-row .blog{
+    display: flex;
+    gap: 10px;
+}
+.first-blog-row .blog .blog-posts{
+    width: 33.33%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px; 
+    background: rgb(204, 204, 204);
+    margin-top: 100px;
+}
+
+.first-blog-row .blog .blog-posts img{
+    width: 100%;
+}
+.first-blog-row .blog .blog-posts .read-more{
+    text-decoration: none;
+    color: blue;
+
+}
